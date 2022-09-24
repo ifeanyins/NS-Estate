@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homes{
+ color: brown;
+}
+
+.header{
+    text-align: center;
+}
+
+.firsti{
+    margin-left:20px ;
+}
+.first{
+    margin-left:23px ;
+}
+.mid{
+    margin-left: 7px;
+}
+.midi{
+    margin-left: 18px;
+}
+.last{
+   margin-left: 26px;
+}
+.lasti{
+    margin-left: 19px;
+}
+.gender{
+    margin-left: 48px;
+}
+.genderi{
+    margin-left: 20px;
+    width: 90px;
+    height: 20px;
+}
+.age{
+    margin-left:70px ;
+}
+.agei{
+    margin-left:23px ;
+}
+.birthday{
+    margin-left:40px ;
+}
+.birthdayi{
+    margin-left: 18px;
+    width: 130px;
+}
+.phonei{
+   margin-left: 11px;
+}
+.email{
+    margin-left: 54px;
+}
+.emaili{
+    margin-left: 22px;
+}
+.pass{
+   margin-left: 30px;
+}
+.passi{
+    margin-left: 18px;
+}
+.button{
+  margin-left: 30px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 200px;
+  border-radius:20px ;
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(228, 143, 172);
+  border-color:rgb(144, 165, 104) ;
+  color: azure;
+}

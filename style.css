@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'inter', Verdana, 'Geneva', Tahoma, sans-serif;
+
+}
+
+.header{
+    text-align: center;
+}
+
+li{
+    color: rgb(156, 130, 130);
+}
+
+a {
+    color: rgb(156, 130, 130);
+}
+
+.figcaption{
+    color: black;
+}
+button{
+    height: 35px;
+    width: 150px;
+    border-radius: 30px;
+    border-width:3px ;
+    border-color: gold;
+    border-style:solid;
+    color:black ;
+}
