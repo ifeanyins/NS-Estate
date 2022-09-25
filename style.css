@@ -1,12 +1,21 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: 'inter', Verdana, 'Geneva', Tahoma, sans-serif;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header{
-    text-align: center;
+.nav-ul{
+  display: flex;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.nsestate {
+    font-size: xx-large;
+    width: 30px;
+    line-height:28px ;
+    font-style: italic;
+    font-weight: bold;
 }
 
 li{
