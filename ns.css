@@ -8,8 +8,8 @@ body{
  color: brown;
 }
 
-.header{
-    text-align: center;
+.nav-div{
+    display: flex;
 }
 
 .firsti{
