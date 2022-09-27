@@ -23,7 +23,7 @@
 
 .right-nav {
     display: flex;
-    margin-left: 600px;
+    margin-left: 800px;
     font-weight: bold; 
     font-size: larger;
     font-family: sans-serif;
@@ -124,11 +124,11 @@
 }
 
 .home{
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .rightnav-texts{
-  margin-right: 20px;
+  margin-right: 30px;
   text-decoration: none;
 }
 
