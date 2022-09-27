@@ -8,6 +8,111 @@
   display: flex;
   list-style-type: none;
   font-family: sans-serif;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom:60px;
+}
+
+.nav-div {
+    margin-bottom: 90px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.right-nav {
+    display: flex;
+    margin-left: 830px;
+    font-weight: bold; 
+    font-size: larger;
+    font-family: sans-serif;
+   
+}
+
+.nstext {
+    margin-left: 120px;
+    color: #000;
+}
+
+.frank {
+    padding-left: 150px;
+    color: darkblue;
+}
+
+.loo {
+  padding-top: 550px;
+  padding-bottom: 160px;
+}
+
+.ltd-text {
+    margin-left: 95px;
+}
+
+.second-layer {
+    display: flex;
+    margin-top: 40px;
+    margin-top: 200px;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.rece {
+  height: 700px;
+  margin-left: 100px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.second-card {
+    background-color: #EB8510;
+    padding-top: 150px;
+    margin-right: 70px;
+    width: 700px;
+    height: 700px;
+}
+
+.secondcard-paragraph {
+    font-size: 50px;
+    color: #fff;
+    padding-left: 50px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.secondpgh-body {
+    color: #fff;
+    padding-left: 50px;
+    font-family: sans-serif;
+    width: 500px;
+    margin-bottom: 60px;
+    line-height: 40px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.first-button {
+    margin-left: 50px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    width: 150px;
+}
+
+.first-button:hover {
+    margin-left: 50px;
+    font-family: sans-serif;
+    color: #fff;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+    transition: all 0.4s ease-in;
 }
 
 .nsestate {
@@ -16,25 +121,101 @@
     line-height:28px ;
     font-style: italic;
     font-weight: bold;
+    color: rgb(156, 130, 130);
 }
 
-li{
-    color: rgb(156, 130, 130);
+.home{
+  margin-right: 20px;
+}
+
+.rightnav-texts{
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.rightnav-texts:hover{
+  margin-right: 20px;
+  text-decoration: none;
+  transition: all ease-in 0.5s;
+  color: orange;
+}
+
+.contact-nav{
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.contact-nav{
+  margin-right: 20px;
+  text-decoration: none;
 }
 
 a {
     color: rgb(156, 130, 130);
 }
 
-.figcaption{
-    color: black;
+.pourquoi {
+    margin: 120px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
-button{
-    height: 35px;
-    width: 150px;
-    border-radius: 30px;
-    border-width:3px ;
-    border-color: gold;
-    border-style:solid;
-    color:black ;
+
+.display-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 50px;
+}
+
+.thirdlayer-text {
+    text-align: center;
+    color: #FFD55F;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+.location-pgh {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 300px;
+    font-size: large;
+    font-family:sans-serif;
+    line-height: 40px;
+    padding-left: 40px;
+}
+
+.trusted-pgh {
+    width: 300px;
+    text-align: center;
+    font-size: large;
+    font-family:sans-serif;
+    line-height: 40px;
+    padding-left: 50px;
+}
+
+.affordability-pgh {
+    width: 300px;
+    text-align: center;
+    font-size: large;
+    font-family:sans-serif;
+    line-height: 40px;
+    padding-left: 50px;
+}
+
+.amenities-pgh {
+    width: 300px;
+    text-align: center;
+    font-size: large;
+    font-family:sans-serif;
+    line-height: 40px;
+    padding-left: 50px;
+}
+
+.our {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-family: sans-serif;
 }
