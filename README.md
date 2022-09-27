@@ -11,8 +11,6 @@
 
 [Live Demo Link](https://ifeanyins.github.io/Calculator-JS/)
 
-<img src = "./screenshot-img.png" alt="Calculator" width="500px"/>.
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
