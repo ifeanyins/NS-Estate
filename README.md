@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ifeanyins.github.io/Calculator-JS/)
+[Live Demo Link]()
 
 ## Getting Started
 
