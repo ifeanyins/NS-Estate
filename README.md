@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://ifeanyins.github.io/NS-Estate/)
 
 ## Getting Started
 
