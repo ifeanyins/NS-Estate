@@ -8,9 +8,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ifeanyins.github.io/Calculator-JS/)
+[Live Demo Link](https://ifeanyins.github.io/NS-Estate/#ns)
 
-<img src = "./screenshot-img.png" alt="Calculator" width="500px"/>.
+## ScreenShot
+
+![Screenshot (2)](https://user-images.githubusercontent.com/110744261/192661492-0f30cf56-1960-4992-980f-189e6a660337.png)
 
 ## Getting Started
 
@@ -32,7 +34,7 @@ First, copy the code to the repository
 ### Usage
 
 ```bash
-git clone and paste the copied code from code
+git clone `https://github.com/ifeanyins/NS-Estate.git`
 ```
 
 -- for installing dev dependecies.
