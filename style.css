@@ -6,6 +6,7 @@
 
 .nav-ul{
   display: flex;
+  justify-content: space-between;
   list-style-type: none;
   font-family: sans-serif;
   background-color: #fff;
@@ -23,7 +24,6 @@
 
 .right-nav {
     display: flex;
-    margin-left: 750px;
     font-weight: bold; 
     font-size: larger;
     font-family: sans-serif;
