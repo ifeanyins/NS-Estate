@@ -164,7 +164,6 @@ a {
 .display-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0px 50px;
 }
 
 .thirdlayer-text {
@@ -251,7 +250,7 @@ a {
 .image-dg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 50px;
+    margin-left: 10px;
     margin-bottom: 100px;
 }
 
