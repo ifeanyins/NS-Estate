@@ -290,7 +290,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 650px;
     background-color: #000;
     color: #fff;
     font-family: sans-serif;
@@ -303,7 +303,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 650px;
     background-color: #EB8510;
     color: #fff;
     font-family: sans-serif;
@@ -321,4 +321,108 @@ a {
     align-items: center;
     font-size: 60px;
     margin-bottom: 80px;
+}
+
+.endcardoneunderh-text {
+    width: 269px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.endcardonelastone-text {
+    width: 267px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+.endcardone {
+    height: 600px;
+    border: 1px solid orange;
+    width:294px ;
+}
+
+.endcardtwounderh-text {
+    width: 269px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.endcardtwolastone-text {
+    width: 267px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+.endcardtwo {
+    height: 600px;
+    border: 1px solid orange;
+    width:294px ;
+}
+
+.ending-pattern {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 210px;
+    margin-bottom: 30px;
+}
+
+.lets {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.our-pjct {
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.lets-p {
+    font-weight: lighter;
+    line-height: 40px;
+    font-size: large;
+}
+
+.footer-dg {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EB8510;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 100px;
+    height: 700px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    gap: 10px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.fn-ln {
+    display: flex;
+}
+
+.e-p {
+    display: flex;
 }
