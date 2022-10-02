@@ -412,7 +412,6 @@ input {
     background: none;
     border: none;
     border-bottom: 1px solid #fff;
-    gap: 10px;
 }
 
 input:focus {
@@ -425,4 +424,14 @@ input:focus {
 
 .e-p {
     display: flex;
+}
+
+.firstname {
+   
+}
+
+.lname {
+    font-size:  x-large;
+   margin-left: 30px;
+  
 }
