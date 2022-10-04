@@ -1,80 +1,154 @@
-body{
-    margin:0;
-    padding:0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.homes{
- color: brown;
-}
-
-.nav-div{
+.nav-ul{
     display: flex;
-}
-
-.firsti{
-    margin-left:20px ;
-}
-.first{
-    margin-left:23px ;
-}
-.mid{
-    margin-left: 7px;
-}
-.midi{
-    margin-left: 18px;
-}
-.last{
-   margin-left: 26px;
-}
-.lasti{
-    margin-left: 19px;
-}
-.gender{
-    margin-left: 48px;
-}
-.genderi{
-    margin-left: 20px;
-    width: 90px;
-    height: 20px;
-}
-.age{
-    margin-left:70px ;
-}
-.agei{
-    margin-left:23px ;
-}
-.birthday{
-    margin-left:40px ;
-}
-.birthdayi{
-    margin-left: 18px;
-    width: 130px;
-}
-.phonei{
-   margin-left: 11px;
-}
-.email{
-    margin-left: 54px;
-}
-.emaili{
-    margin-left: 22px;
-}
-.pass{
-   margin-left: 30px;
-}
-.passi{
-    margin-left: 18px;
-}
-.button{
-  margin-left: 30px;
-  width: 400px;
-  height: 40px;
-  margin-bottom: 200px;
-  border-radius:20px ;
-  border-width: 3px;
-  border-style: solid;
-  background-color: rgb(228, 143, 172);
-  border-color:rgb(144, 165, 104) ;
-  color: azure;
-}
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: sans-serif;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom:60px;
+  }
+  
+  .nav-div {
+      margin-bottom: 90px;
+      background-color: #fff;
+      position: fixed;
+      width: 100%;
+      top: 0;
+  }
+  
+  .right-nav {
+      display: flex;
+      font-weight: bold; 
+      font-size: larger;
+      font-family: sans-serif;
+  }
+  
+  .nstext {
+      margin-left: 120px;
+      color: #000;
+  }
+  
+  .frank {
+      padding-left: 150px;
+      color: darkblue;
+  }
+  
+  .loo {
+    padding-top: 550px;
+    padding-bottom: 160px;
+  }
+  
+  .ltd-text {
+      margin-left: 95px;
+  }
+  
+  .second-layer {
+      display: flex;
+      margin-top: 40px;
+      margin-top: 200px;
+  }
+  
+  .left-nav {
+      display: flex;
+  }
+  
+  .rece {
+    height: 700px;
+    margin-left: 100px;
+    width: 600px;
+    object-fit: cover;
+  }
+  
+  .second-card {
+      background-color: #EB8510;
+      padding-top: 150px;
+      margin-right: 70px;
+      width: 700px;
+      height: 700px;
+  }
+  
+  .secondcard-paragraph {
+      font-size: 50px;
+      color: #fff;
+      padding-left: 50px;
+      font-family: sans-serif;
+      margin-bottom: 50px;
+  }
+  
+  .secondpgh-body {
+      color: #fff;
+      padding-left: 50px;
+      font-family: sans-serif;
+      width: 500px;
+      margin-bottom: 60px;
+      line-height: 40px;
+      font-size: larger;
+      font-weight: bold;
+  }
+  
+  .first-button {
+      margin-left: 50px;
+      font-family: sans-serif;
+      color: #fff;
+      background-color: #000;
+      border: none;
+      height: 50px;
+      border-radius: 0px;
+      width: 150px;
+  }
+  
+  .first-button:hover {
+      margin-left: 50px;
+      font-family: sans-serif;
+      color: #fff;
+      border: none;
+      height: 50px;
+      border-radius: 30px;
+      background-color: rebeccapurple;
+      transition: all 0.4s ease-in;
+  }
+  
+  .nsestate {
+      font-size: xx-large;
+      width: 30px;
+      line-height:28px ;
+      font-style: italic;
+      font-weight: bold;
+      color: rgb(156, 130, 130);
+  }
+  
+  .home{
+    margin-right: 30px;
+  }
+  
+  .rightnav-texts{
+    margin-right: 30px;
+    text-decoration: none;
+  }
+  
+  .rightnav-texts:hover{
+    margin-right: 20px;
+    text-decoration: none;
+    transition: all ease-in 0.5s;
+    color: orange;
+  }
+  
+  .contact-nav{
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .contact-nav{
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  a {
+      color: rgb(156, 130, 130);
+  }
