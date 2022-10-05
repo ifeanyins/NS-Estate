@@ -64,56 +64,7 @@
     width: 600px;
     object-fit: cover;
   }
-  
-  .second-card {
-      background-color: #EB8510;
-      padding-top: 150px;
-      margin-right: 70px;
-      width: 700px;
-      height: 700px;
-  }
-  
-  .secondcard-paragraph {
-      font-size: 50px;
-      color: #fff;
-      padding-left: 50px;
-      font-family: sans-serif;
-      margin-bottom: 50px;
-  }
-  
-  .secondpgh-body {
-      color: #fff;
-      padding-left: 50px;
-      font-family: sans-serif;
-      width: 500px;
-      margin-bottom: 60px;
-      line-height: 40px;
-      font-size: larger;
-      font-weight: bold;
-  }
-  
-  .first-button {
-      margin-left: 50px;
-      font-family: sans-serif;
-      color: #fff;
-      background-color: #000;
-      border: none;
-      height: 50px;
-      border-radius: 0px;
-      width: 150px;
-  }
-  
-  .first-button:hover {
-      margin-left: 50px;
-      font-family: sans-serif;
-      color: #fff;
-      border: none;
-      height: 50px;
-      border-radius: 30px;
-      background-color: rebeccapurple;
-      transition: all 0.4s ease-in;
-  }
-  
+
   .nsestate {
       font-size: xx-large;
       width: 30px;
@@ -151,4 +102,25 @@
   
   a {
       color: rgb(156, 130, 130);
+  }
+
+  .nsdiv-pl {
+    color: #000;
+    padding-top: 300px;
+  }
+
+  .ns-pl {
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+  }
+
+  .we-are {
+    font-size: x-large;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 300px;
+    width: 900px;
   }
