@@ -123,4 +123,28 @@
     text-align: center;
     margin-left: 270px;
     width: 900px;
+    margin-bottom: 50px;
   }
+
+  .second-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 50px;
+  }
+
+  .fourth-paragraph {
+    width: 1150px;
+    font-size: xx-large;
+    line-height: 50px;
+    margin: 0px 200px;
+    margin-bottom: 50px;
+  }
+
+  
