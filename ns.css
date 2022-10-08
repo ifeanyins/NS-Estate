@@ -140,11 +140,84 @@
   }
 
   .fourth-paragraph {
-    width: 1150px;
+    width: 70%;
     font-size: x-large;
     line-height: 51px;
-    margin: 0px 200px;
+    margin: auto;
     margin-bottom: 50px;
   }
 
+  .main-b {
+    background-color: #F59607;
+    height: 400px;
+  }
+
+  .buy-your {
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 100px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+
+  .contact-btn {
+    background-color: #000;
+    color: #fff;
+    height: 60px;
+    width: 190px;
+    font-size: large;
+    margin-bottom: 100px;
+  }
+
+  .contact-btn:hover {
+    background-color: rebeccapurple;
+    color: #fff;
+    height: 60px;
+    width: 190px;
+    font-size: large;
+    transition: all 0.5s ease-in;
+    border-radius: 10px;
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+  }
   
+
+  .footer-div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-text {
+    font-size: larger;
+  }
+
+  .fa-whatsapp  {
+    margin-right: 10px;
+    color: green;
+  }
+
+  .fa-instagram  {
+    margin-right: 10px;
+    color: rgb(126, 12, 31);
+  }
+
+  .fa-facebook-square  {
+    margin-right: 10px;
+    color: darkblue;
+  }
+
+  .fa-youtube-play  {
+    margin-right: 10px;
+    color: red;
+  }
+
+  .fa-linkedin-square   {
+    margin-right: 10px;
+    color: blue;
+  }
