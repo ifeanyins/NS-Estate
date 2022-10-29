@@ -376,9 +376,10 @@ a {
 
 .ending-pattern {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0px 210px;
+    grid-template-columns: repeat(3, 300px);
+    margin:0px 100px;
     margin-bottom: 30px;
+    gap: 20px;
 }
 
 .lets {
