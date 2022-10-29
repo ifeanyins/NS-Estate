@@ -56,3 +56,42 @@ let generateimage =()=>{
     }).join(''));
 };
 generateimage();
+
+let footerImg = document.getElementById('footerimg')
+
+let footerCards = [
+    {
+        images:'images/3cardsimg1.JPEG',
+        h2txt:'How to search for Lagos real estate/properties on t...',
+        h4txt:'Searching for the perfect home is a rigorous process that requires time and patience. Becoming a...'
+    },
+    {
+        images:'images/3cardsimg2.JPEG',
+        h2txt:'Lagos housing market predictions for 2022...',
+        h4txt:'Recently, the Nigerian real estate industry has been negatively impacted by the COVID-19...'
+    },
+    {
+        images:'images/3cardimg3.JPEG',
+        h2txt:'Things buyers need to consider when buying or investing in real...',
+        h4txt:'Purchasing a property is one of the most important decisions you’ll ever make in your life. A...'
+    }
+];
+
+let lastImg =()=>{
+    return (footerImg.innerHTML = footerCards.map((y)=>{
+        let {images,h2txt,h4txt} = y;
+        return `
+        <div class="ending-pattern">
+            <div id="footerimg" class="endcardone">
+            <img src=${images}>
+            <p class="endcardone-text">
+                <h2 class="endcardoneunderh-text">${h2txt}</h2>
+                <h4 class="endcardonelastone-text">${h4txt}</h4>
+            </p>
+            </div>
+        </div>
+        `
+    }).join(''));
+};
+
+lastImg()
