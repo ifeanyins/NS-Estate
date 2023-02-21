@@ -95,3 +95,9 @@ let lastImg =()=>{
 };
 
 lastImg()
+
+const btnSeeP = document.querySelector('.see-p');
+const divContainer = document.querySelector('.image-pop');
+const closerBtn = document.querySelector('.closer');
+
+btnSeeP.addEventListener('click', openers)
