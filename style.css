@@ -302,6 +302,7 @@ a {
     color: #fff;
     font-family: sans-serif;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .see-p:hover {
@@ -492,10 +493,24 @@ input:focus {
 }
 
 .image-pop{
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     background-color: red;
     position: fixed;
+    display: flex;
+    justify-content: end;
+}
+
+.img-div{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 300px;
+
+}
+
+.closerer{
+   cursor: pointer;
 }
 
 .hide{

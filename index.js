@@ -100,4 +100,13 @@ const btnSeeP = document.querySelector('.see-p');
 const divContainer = document.querySelector('.image-pop');
 const closerBtn = document.querySelector('.closer');
 
-btnSeeP.addEventListener('click', openers)
+btnSeeP.addEventListener('click', openErs);
+closerBtn.addEventListener('click', cloSers);
+
+function openErs(){
+    divContainer.classList.remove('hide')
+}
+
+function cloSers(){
+    divContainer.classList.add('hide')
+}
