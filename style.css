@@ -11,11 +11,11 @@
   font-family: sans-serif;
   background-color: #fff;
   margin-top: 50px;
-  margin-bottom:60px;
+  /* margin-bottom:60px; */
 }
 
 .nav-div {
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -51,7 +51,6 @@
 .second-layer {
     display: flex;
     margin-top: 40px;
-    margin-top: 200px;
 }
 
 .left-nav {
@@ -130,10 +129,6 @@
     color: rgb(156, 130, 130);
 }
 
-.home{
-  margin-right: 30px;
-}
-
 .rightnav-texts{
   margin-right: 30px;
   text-decoration: none;
@@ -154,6 +149,15 @@
 .contact-nav{
   margin-right: 20px;
   text-decoration: none;
+}
+
+.home:focus{
+    color: #000;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 a {
